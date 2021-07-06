@@ -21,7 +21,8 @@ var timeInterval = setInterval(function() {
             } else if (target.matches("#wrong-choice")) { 
                 document.getElementById("wrong-choice").textContent;
                 document.getElementById("wrongchoiceprompt").innerHTML = "Wrong Answer!!!";
-                window.alert("Incorrect!!!")
+                timeLeft = timeLeft - 10;
+                window.alert("Incorrect!!!");
             }
 
         });
