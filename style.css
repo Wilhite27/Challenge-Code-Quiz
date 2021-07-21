@@ -1,0 +1,25 @@
+body {
+    background-color:bisque;
+}
+
+button {
+    background-color: rgb(10, 15, 255);
+    text-decoration: none;
+        display: flex;
+    margin-bottom: 0.8rem;
+    width: 100%;    
+} 
+h4 {
+    text-decoration: none;
+}
+main {
+    width: 60%;
+    margin: 0 auto;
+}
+button.user-choices {
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 100%;
+   text-decoration: none;
+   max-width: 45%; 
+}
